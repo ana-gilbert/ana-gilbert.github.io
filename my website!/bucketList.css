@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(60, 140, 189);
+}
+#map {
+    height: 100%;
+    aspect-ratio: 2/1;
+}
+.display-2-fluid{
+    font-family: 'Radley';
+    font-size: 4rem;
+    color: white;
+    opacity: 50%;
+}
+.nav-link{
+    font-family: 'Radley';
+    font-size: 1.25rem;
+}
+.nav-link:hover{
+	font-weight: bold;
+}
+h3{
+    font-family: 'Radley';
+}
+p{
+    font-family: 'B612';
+    font-style: italic;
+}

@@ -1,0 +1,36 @@
+body{
+    background: url('images/sky2.jpg');
+    background-size: cover;
+}
+.display-2-fluid{
+    font-family: 'Radley';
+    color: white;
+    font-size: 4rem;
+    opacity: 0.5;
+}
+
+.nav-link{
+    font-family: 'Radley';
+    font-size: 1.25rem;
+}
+.nav-link:hover{
+	font-weight: bold;
+}
+
+.card{
+    background-color: #f3f2f0;
+    font-family: 'B612';
+    color: #7e88a8;
+    
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    font-family: 'B612';
+    color: white;
+    font-size: 1.5rem;
+    opacity: 0.5;
+    font-style: italic;
+}

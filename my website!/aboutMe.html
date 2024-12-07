@@ -1,0 +1,331 @@
+<html>
+    <head>
+        <title>about me</title>
+
+        <!-- required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- bootstrap css-->
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+        
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Radley:ital@0;1&display=swap" rel="stylesheet">
+        
+        <!-- my css -->
+        <link rel="stylesheet" href="aboutMe.css">
+    </head>
+
+    <body>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-light navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link text-secondary" aria-current="page" href="home.html">Home</a>
+                  <a class="nav-link text-secondary" href="aboutMe.html">About Me</a>
+                  <a class="nav-link text-secondary" href="favs.html">Current Favs</a>
+                  <a class="nav-link text-secondary" href="socials.html">Socials</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+      <!--HEADER/TITLE-->
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center my-4">
+                <h2 class="display-2-fluid">About Me</h2>
+            </div>
+        </div>
+      </div>
+
+      <!--CARDS-->
+      <div class="container">
+        <div class="row justify-content-center mt-4">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#meModal">
+                    <div class="card mb-3 p-3">
+                        <img src="images/baby.jpg" class="card-img-top" alt="ana gilbert">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Me!</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            
+    
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#familyModal">
+                    <div class="card mb-3 p-3">
+                        <img src="images/fam2.jpg" class="card-img-top" alt="my family">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Family</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#friendsModal">
+                    <div class="card mb-3 p-3">
+                        <img src="images/friends1.jpg" class="card-img-top" alt="my friends">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Friends</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        <div class="row justify-content-center mt-4">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+                <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#adpiModal">
+                    <div class="card mb-3 p-3">
+                        <img src="images/adpi2.jpg" class="card-img-top" alt="adpi">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Alpha Delta Pi</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 offset-lg-1">
+                <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#cheerModal">
+                    <div class="card mb-3 p-3">
+                        <img src="images/cheer2.jpg" class="card-img-top" alt="gramma nutt">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">FSC Cheer</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+    </div>
+
+
+    <!-- MODALS -->
+
+    <!-- me -->
+     <div class="modal fade" id="meModal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <h5 class="modal-title" id="modal-title">Ana Sofia Gilbert</h5>
+	          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	        </div>
+	        <div class="modal-body">
+	          <!-- photo carousel -->
+                <div id="meCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/nyc.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cheer1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/FullSizeRender.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/adpi1.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#meCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#meCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+
+                <p class="pt-3">Hi, I'm Ana Sofia Gilbert! I'm 20 years old and currently studying computer science at Florida Southern College. Alongside my studies, I'm a cheerleader and a proud member of Alpha Delta Pi sorority. I love spending my free time reading, exploring the outdoors, and snorkeling and scuba diving!</p>
+                
+	        </div>
+	      </div>
+	    </div>
+     </div>
+
+        <!-- family -->
+     <div class="modal fade" id="familyModal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <h5 class="modal-title" id="modal-title">The Gilbert Family</h5>
+	          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	        </div>
+	        <div class="modal-body">
+	          <!-- photo carousel -->
+                <div id="familyCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/fam.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/me&maddie.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/mom&dad.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/otis1.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#familyCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#familyCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+
+                <p class="pt-3">I am the youngest of two in my family. My sister, Madeline, is 23 years old. She works as a Special Education teacher in Olean, NY. My mom, Nicole, is 53 years old. She owns her own travel agency. My dad, Dan, is also 53 years old. He owns his own medical equipment sales company. My dog, Otis, is 8 years old. He is a rescue chocolate lab pitbull mix. My parents and dog live in Ringwood, NJ where I grew up. My family loves to travel together, goof off, and root for the Eagles. Go Birds!!</p>
+                
+	        </div>
+	      </div>
+	    </div>
+    </div>
+
+
+        <!-- friends -->
+     <div class="modal fade" id="friendsModal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <h5 class="modal-title" id="modal-title">My Friends</h5>
+	          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	        </div>
+	        <div class="modal-body">
+	          <!-- photo carousel -->
+                <div id="friendsCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/madie&luci.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/me&cess.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/luci&sony.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#friendsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#friendsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+
+                <p class="pt-3">I love my friends!! Cessa is my oldest friend. We met in freshman year of highschool and have been best friends ever since. She goes to Clemson University and is studying Biosystems Engineering and is probably the smartest person I know. We have plans to live together in Hoboken after college. <br><br> I met Tia and Sonya when I came to Florida Southern. They lived across the hall from me freshman year and we bonded over our college struggles. Sonya is a Musical Theater major and a very talented singer and actress. Tia is a Communications major with a minor in Dance and very talented as well. I love watching them perform and cheering them on. My artsy gals!!<br><br>I met Madie when I joined the FSC Cheerleading team my freshman year. We quickly bonded over cheer and the fact that she's from NJ as well! Madie is the most driven and dedicated person I know. We went through sorority recruitment together and both joined ALpha Delta Pi. We served on the executive board togther and are now roomates!!<br><br>I officially met Luci when we both joined ADPi but we had actually taken classes together for two semesters before that and didn't even know! We both used to be Marine Biology majors but we switched, her to Integrated Biology and me to Computer Science. I think Luci is the most like me of all my friends so we always see eye-to-eye. Now Luci and I are roomates too!<br><br>I have so many other friends who I love and adore as well!!</p>
+                
+	        </div>
+	      </div>
+	    </div>
+    </div>
+
+
+    <!-- adpi -->
+    <div class="modal fade" id="adpiModal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <h5 class="modal-title" id="modal-title">ADPi</h5>
+	          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	        </div>
+	        <div class="modal-body">
+	          <!-- photo carousel -->
+                <div id="adpiCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/bidday.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/formal.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/formal2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#adpiCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#adpiCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+
+                <p class="pt-3">I joined Alpha Delta Pi in March of my freshman year. I never thought I would join a sorority but it was the best decision I've ever made. I've made lifelong friends and moved into leadership roles which have helped me grow. I've been able to engage in philanthropic opportunities and give back to my community. I'll never forget these girls and I love them all to death.</p>
+                
+	        </div>
+	      </div>
+	    </div>
+    </div>
+
+    <!-- cheer -->
+    <div class="modal fade" id="cheerModal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <h5 class="modal-title" id="modal-title">FSC Cheerleading</h5>
+	          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	        </div>
+	        <div class="modal-body">
+	          <!-- photo carousel -->
+                <div id="cheerCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/me&brookie.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/bow&arrow.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/group.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#cheerCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#cheerCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+
+                <p class="pt-3">I have been on the FSC Cheerleading team for 3 years now! We cheer for men's and women's basketball games from October to March. We also appear at freshman admissions events and sponsership events to represent the college. I'm one of four flyers on the team which means I get thrown in the air which is so much fun! I'm hoping to be captain next year as well. </p>
+                
+	        </div>
+	      </div>
+	    </div>
+    </div>
+
+
+        <!-- bootstrap js -->
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+        <script src="aboutMe.js"></script>
+    </body>
+</html>

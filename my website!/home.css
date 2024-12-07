@@ -1,0 +1,66 @@
+body{
+    background-color: #f7cdd0;
+    height: 100vh;
+}
+h1{
+    font-family: 'Radley';
+    color: #ff3463;
+    font-size: 5.5rem;
+    font-style: normal;
+    font-weight: 100;
+}
+p{
+    color: white;
+    font-family: 'B612';
+    font-size: 1.25rem;
+}
+
+
+#box{
+    max-width: 200px;
+    cursor: pointer;
+    position: relative;
+}
+
+#box:hover{
+  animation: wiggle 2s linear;
+}
+
+.fly-out{
+    position: absolute;
+    top: 70%; 
+    left: 40%;
+    visibility: hidden; 
+    transform: scale(0);
+    transition: transform 0.5s ease;
+}
+.fly-out.go {
+    visibility: visible;
+    transform: scale(1) translate(var(--x), var(--y));
+}
+
+@keyframes wiggle{    
+    0%, 7% {
+        transform: rotateZ(0);
+      }
+      15% {
+        transform: rotateZ(-15deg);
+      }
+      20% {
+        transform: rotateZ(10deg);
+      }
+      25% {
+        transform: rotateZ(-10deg);
+      }
+      30% {
+        transform: rotateZ(6deg);
+      }
+      35% {
+        transform: rotateZ(-4deg);
+      }
+      40%, 100% {
+        transform: rotateZ(0);
+      }
+}
+
+

@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>bucket list</title>
+
+        <!-- required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- bootstrap css-->
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+        
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Radley:ital@0;1&display=swap" rel="stylesheet">
+        
+        <!-- my css -->
+        <link rel="stylesheet" href="bucketList.css">
+
+        <!-- google maps api -->
+        <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${
+            c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+                ({key: "AIzaSyD1w06llkdwfCf797P-HsN-BZ85ct_DFFw", v: "weekly"});</script>
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-light navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link text-secondary" aria-current="page" href="home.html">Home</a>
+                  <a class="nav-link text-secondary" href="aboutMe.html">About Me</a>
+                  <a class="nav-link text-secondary" href="favs.html">Current Favs</a>
+                  <a class="nav-link text-secondary"href="bucketList.html">Bucket List</a>
+                  <a class="nav-link text-secondary" href="socials.html">Socials</a>
+
+                </div>
+              </div>
+            </div>
+          </nav>
+
+      <!--HEADER/TITLE-->
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center my-4">
+                <h2 class="display-2-fluid">My Bucket List</h2>
+                <p class="pt-1">Where I want to go and what I want to do!</p>
+            </div>
+        </div>
+      </div>
+
+      <div id="map" class="container"></div>
+
+      
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+        <script src="bucketList.js"></script>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+body{
+    color: #ff3463;
+    /* background-color: #f7cdd0; */
+    
+}
+
+.display-2-fluid{
+    font-family: 'Radley';
+
+    font-size: 4rem;
+}
+
+a{
+    text-decoration: none;
+    color: #ff3463;
+}
+
+a:hover{
+    color: #ff3463;
+}
+
+.nav-link{
+	font-size: 1.25rem;
+	color: #ff3463;
+    font-family: 'Radley';
+}
+
+.nav-link:hover{
+	font-weight: bold;
+}
+
+h5{
+    font-family: 'Radley';
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#modal-title{
+    font-family: 'Radley';
+    font-style: italic;
+}
+
+p{
+    font-family: 'B612';
+}
+
+.card-img-top{
+    aspect-ratio: 1 / 1;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
+    filter: grayscale(100%);
+    
+}
+
+.card{
+    border-radius: 0%;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
+    filter: drop-shadow( 5px 5px 5px rgb(46, 46, 46));
+}
