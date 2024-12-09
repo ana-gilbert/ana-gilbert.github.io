@@ -1,17 +1,24 @@
 body{
-    background-color: #f7cdd0;
+    background-color: #ffdfeb;
     height: 100vh;
 }
 h1{
-    font-family: 'Radley';
-    color: #ff3463;
+    font-family: 'Roca';
+    color: #f974a6;
     font-size: 5.5rem;
     font-style: normal;
     font-weight: 100;
 }
+
+@font-face {
+  font-family: "Roca";
+  src: url("Roca-Font/Roca\ Black.ttf");
+  }
+
+
 p{
-    color: white;
-    font-family: 'B612';
+    color: #f974a6;
+    font-family: 'Open Sans';
     font-size: 1.25rem;
 }
 

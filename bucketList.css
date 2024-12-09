@@ -1,27 +1,37 @@
 body{
-    background-color:rgb(60, 140, 189);
+    background-color:#ffdfeb;
 }
 #map {
     height: 100%;
     aspect-ratio: 2/1;
 }
 .display-2-fluid{
-    font-family: 'Radley';
+    font-family: 'Roca';
     font-size: 4rem;
-    color: white;
-    opacity: 50%;
+    color: #f974a6;
+    text-transform: uppercase;
+    
 }
+
+@font-face {
+    font-family: "Roca";
+    src: url("Roca-Font/Roca\ Black.ttf");
+}
+
 .nav-link{
-    font-family: 'Radley';
+    font-family: 'Roca';
     font-size: 1.25rem;
 }
 .nav-link:hover{
 	font-weight: bold;
 }
 h3{
-    font-family: 'Radley';
+    font-family: 'Roca';
+    color: #f974a6;
+
 }
 p{
-    font-family: 'B612';
+    font-family: 'Open Sans';
     font-style: italic;
+    color: #f974a6;
 }

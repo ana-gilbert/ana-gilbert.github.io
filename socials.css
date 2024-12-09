@@ -1,16 +1,21 @@
 body{
-    background: url('images/sky2.jpg');
-    background-size: cover;
+    background-color: #ffdfeb;
 }
+
+@font-face {
+    font-family: "Roca";
+    src: url("Roca-Font/Roca\ Black.ttf");
+    }
+
 .display-2-fluid{
-    font-family: 'Radley';
-    color: white;
+    font-family: 'Roca';
+    color: #f974a6;
     font-size: 4rem;
-    opacity: 0.5;
+    text-transform: uppercase;
 }
 
 .nav-link{
-    font-family: 'Radley';
+    font-family: 'Roca';
     font-size: 1.25rem;
 }
 .nav-link:hover{
@@ -18,9 +23,9 @@ body{
 }
 
 .card{
-    background-color: #f3f2f0;
-    font-family: 'B612';
-    color: #7e88a8;
+    background-color: #ffffff;
+    font-family: 'Open Sans';
+    color: #f974a6;
     
 }
 
@@ -28,9 +33,8 @@ a{
     text-decoration: none;
 }
 p{
-    font-family: 'B612';
-    color: white;
+    font-family: 'Open Sans';
+    color: #f974a6;
     font-size: 1.5rem;
-    opacity: 0.5;
     font-style: italic;
 }

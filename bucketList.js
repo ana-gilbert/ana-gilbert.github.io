@@ -5,7 +5,7 @@ async function initMap() {
   const locations = [
     {position: { lat: 16.83003, lng: -88.0105 },
       title: "Belize Barrier Reef",
-      blurb: "Belize is home to the second largest barrier reef in the wrold! I would love to go diving there some day."
+      blurb: "Belize is home to the second largest barrier reef in the world! I would love to go diving there some day."
     },
     {position: { lat: 30.0444, lng: 31.2357 },
       title: "Cairo, Egypt",
@@ -17,7 +17,7 @@ async function initMap() {
     },
     {position: { lat: -22.9068, lng: -43.1729 },
     title: "Rio de Janeiro, Brazil",
-    blurb: "I would absolutely love to witness Cranival in person. Brazil is also home to incredible beaches and architecture"
+    blurb: "I would absolutely love to witness Carnival in person. Brazil is also home to incredible beaches and architecture."
     },
     {position: { lat: 35.6764, lng: 139.6500 },
     title: "Tokyo, Japan",

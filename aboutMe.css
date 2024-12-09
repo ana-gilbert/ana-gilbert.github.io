@@ -1,28 +1,33 @@
 body{
-    color: #ff3463;
+    color: #f974a6;
     /* background-color: #f7cdd0; */
     
 }
 
 .display-2-fluid{
-    font-family: 'Radley';
-
+    font-family: 'Roca';
     font-size: 4rem;
+    text-transform: uppercase;
 }
+
+@font-face {
+    font-family: "Roca";
+    src: url("Roca-Font/Roca\ Black.ttf");
+    }
 
 a{
     text-decoration: none;
-    color: #ff3463;
+    color: #f974a6;
 }
 
 a:hover{
-    color: #ff3463;
+    color: #f974a6;
 }
 
 .nav-link{
 	font-size: 1.25rem;
-	color: #ff3463;
-    font-family: 'Radley';
+	color: #f974a6;
+    font-family: 'Roca';
 }
 
 .nav-link:hover{
@@ -30,18 +35,17 @@ a:hover{
 }
 
 h5{
-    font-family: 'Radley';
+    font-family: 'Open Sans';
     font-size: 2rem;
-    font-style: italic;
 }
 
 #modal-title{
-    font-family: 'Radley';
+    font-family: 'Roca';
     font-style: italic;
 }
 
 p{
-    font-family: 'B612';
+    font-family: 'Open Sans';
 }
 
 .card-img-top{
